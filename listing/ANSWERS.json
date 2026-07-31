@@ -1,0 +1,17 @@
+{
+  "What's your product called?": "Sill",
+  "Give it a one line pitch": "Know what each gig is really worth.",
+  "Where can people try it?": "https://sill.loomship.xyz",
+  "What makes it special?": "Sill is a real-time earnings dashboard for working musicians. Sync your gig calendar, see payouts, commute times, and expenses in one view. It automatically calculates your true hourly rate after travel and expenses. A Mapbox-based map shows which gigs are worth the drive. Local-first storage keeps your data in your browser.",
+  "Logo": "listing/logo.svg",
+  "Screenshots": [
+    "listing\\screenshots\\01-home.png",
+    "listing\\screenshots\\02-dashboard.png"
+  ],
+  "Select 3 categories that fit the product": [
+    "Data Science & Analytics",
+    "Productivity",
+    "SaaS"
+  ],
+  "Write your first comment": "Hey Orynth, I built Sill because I was tired of taking gigs that paid well on paper but barely broke even after driving an hour each way. The true hourly rate calc changed how I book. It uses Mapbox to visualize commute overlays, so I can see at a glance which nights are actually worth it. Let me know what you think, especially if you play shows too."
+}

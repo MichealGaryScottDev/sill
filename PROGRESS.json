@@ -1,6 +1,6 @@
 {
   "slug": "sill",
-  "stage": "built",
+  "stage": "deployed",
   "idea": {
     "slug": "sill",
     "title": "Sill",
@@ -40,7 +40,7 @@
   "customBrief": "Sill is a real-time gig economy earnings dashboard for musicians and performers. It syncs with your gig calendar, tracks commute times and payouts, and computes your true hourly rate after travel and expenses. Built with Next.js and a mapbox-powered commute visualizer, it's for working musicians who want to know which gigs are actually worth it.",
   "submitToOrynth": true,
   "siteDir": "C:\\Users\\noahw\\Downloads\\CodingProjects\\OrynthAutoDev\\projects\\sill",
-  "updatedAt": "2026-07-31T02:53:55.858Z",
+  "updatedAt": "2026-07-31T02:55:40.414Z",
   "brand": {
     "title": "Sill",
     "tagline": "Know what each gig is really worth.",
