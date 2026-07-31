@@ -1,0 +1,81 @@
+{
+  "slug": "sill",
+  "stage": "built",
+  "idea": {
+    "slug": "sill",
+    "title": "Sill",
+    "tagline": "Know what each gig is really worth.",
+    "description": "Sill is a real-time earnings dashboard for working musicians. It syncs your gig calendar, tracks commute times and payouts, and computes your true hourly rate after travel and expenses. With a Mapbox-powered commute visualizer, Sill shows you which gigs are worth taking and which aren't.",
+    "niche": "Working musicians, DJs, and performers who juggle multiple gigs and need to optimize their time and earnings.",
+    "pages": [
+      "/",
+      "/dashboard"
+    ],
+    "visualCraft": "wallet",
+    "visualDirection": "Dark, data-dense workbench with a wallet-grade focus on numbers. Clean grid layout, monospace numerals for stats, and a hero with a huge circular gauge icon that animates to show true hourly rate.",
+    "colorPalette": {
+      "bg": "#0f1115",
+      "fg": "#f5f7fa",
+      "accent": "#8ab4f8",
+      "muted": "#4a5568"
+    },
+    "fontPairing": {
+      "display": "DM Sans",
+      "body": "DM Sans"
+    },
+    "features": [
+      "Import gigs from calendar and see payouts, commute time, and expenses in one view",
+      "Automatic true hourly rate calculation: (payout - expenses) / (gig time + commute)",
+      "Mapbox-powered commute visualizer to overlay travel time on a map",
+      "Performance trend chart comparing gig earnings over weeks and months",
+      "Local-first storage: your data stays in your browser, no server required",
+      "Quick-add gig modal for manual entry when calendar sync isn't available"
+    ],
+    "scopeNotes": "No authentication, no backend database, no payment integration. Calendar import is simulated with sample data or manual entry. Mapbox is used for showing a static map with commute overlay, not for live navigation.",
+    "usesAi": false,
+    "libraries": [
+      "mapbox"
+    ]
+  },
+  "customBrief": "Sill is a real-time gig economy earnings dashboard for musicians and performers. It syncs with your gig calendar, tracks commute times and payouts, and computes your true hourly rate after travel and expenses. Built with Next.js and a mapbox-powered commute visualizer, it's for working musicians who want to know which gigs are actually worth it.",
+  "submitToOrynth": true,
+  "siteDir": "C:\\Users\\noahw\\Downloads\\CodingProjects\\OrynthAutoDev\\projects\\sill",
+  "updatedAt": "2026-07-31T02:53:55.858Z",
+  "brand": {
+    "title": "Sill",
+    "tagline": "Know what each gig is really worth.",
+    "description": "Sill is a real-time earnings dashboard for working musicians. Sync your gig calendar, track commute times and payouts, and compute your true hourly rate after travel and expenses. With a Mapbox-powered commute visualizer, Sill shows you which gigs are worth taking and which aren't.",
+    "voice": "Sill speaks like a sharp, trusted accountant who knows your scene — direct, unsentimental, and always clear about what you're actually earning.",
+    "tone": "calm, precise, editorial, data-driven, slightly wry",
+    "sections": [
+      {
+        "name": "The True Rate Gauge",
+        "purpose": "Immediately show the core value: a true hourly rate that accounts for travel and expenses.",
+        "visualBeat": "A large animated circular gauge with a monospace numeral in the center, flanked by a breakdown of payout, hours, commute, and expenses."
+      },
+      {
+        "name": "Commute Overlay",
+        "purpose": "Visualize travel time and its cost in earnings, helping users decide which gigs are worth it.",
+        "visualBeat": "A dark Mapbox-style map with a pulsing radius around a pin, and a line chart showing how commute time eats into hourly rate."
+      },
+      {
+        "name": "Earnings Trend",
+        "purpose": "Show performance over time — weekly and monthly trends in earnings and effective rates.",
+        "visualBeat": "A comparative bar/line chart with monospace labels, highlighting upward trends in accent color."
+      },
+      {
+        "name": "Gig Ledger",
+        "purpose": "List all gigs with one-click detail on payouts, expenses, and travel, reinforcing the dashboard's utility.",
+        "visualBeat": "A clean table with rows that expand to show a mini map and a true-rate tag for each gig."
+      },
+      {
+        "name": "Local-First Privacy",
+        "purpose": "Reassure users that their data stays in their browser, reinforcing trust and simplicity.",
+        "visualBeat": "A minimal split-screen: left side shows a browser mockup with a lock icon, right side lists 'No server. No cloud. Your data stays yours.'"
+      }
+    ],
+    "heroComposition": "First viewport: bold DM Sans headline 'Know what each gig is really worth.' with a clear CTA 'Get the true rate' on the left, and on the right a giant animated circular gauge (Sill's logo) displaying a live true hourly rate in monospace numerals.",
+    "logoSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 120 120\"><path d=\"M60 20 A40 40 0 0 1 92.4 92.4 L60 60 Z\" fill=\"#8ab4f8\"/><line x1=\"60\" y1=\"60\" x2=\"60\" y2=\"40\" stroke=\"#f5f7fa\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"60\" y1=\"60\" x2=\"75\" y2=\"60\" stroke=\"#f5f7fa\" stroke-width=\"4\" stroke-linecap=\"round\"/></svg>",
+    "logoMarkDescription": "A quarter-segment circle (pie slice) with a horizontal tick mark at its center, representing the gauge icon that measures true hourly rate — simple, precise, with rounded terminals."
+  }
+}

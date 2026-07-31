@@ -1,0 +1,47 @@
+{
+  "title": "Sill",
+  "tagline": "Know what each gig is really worth.",
+  "description": "Sill is a real-time earnings dashboard for working musicians. Sync your gig calendar, track commute times and payouts, and compute your true hourly rate after travel and expenses. With a Mapbox-powered commute visualizer, Sill shows you which gigs are worth taking and which aren't.",
+  "voice": "Sill speaks like a sharp, trusted accountant who knows your scene — direct, unsentimental, and always clear about what you're actually earning.",
+  "tone": "calm, precise, editorial, data-driven, slightly wry",
+  "sections": [
+    {
+      "name": "The True Rate Gauge",
+      "purpose": "Immediately show the core value: a true hourly rate that accounts for travel and expenses.",
+      "visualBeat": "A large animated circular gauge with a monospace numeral in the center, flanked by a breakdown of payout, hours, commute, and expenses."
+    },
+    {
+      "name": "Commute Overlay",
+      "purpose": "Visualize travel time and its cost in earnings, helping users decide which gigs are worth it.",
+      "visualBeat": "A dark Mapbox-style map with a pulsing radius around a pin, and a line chart showing how commute time eats into hourly rate."
+    },
+    {
+      "name": "Earnings Trend",
+      "purpose": "Show performance over time — weekly and monthly trends in earnings and effective rates.",
+      "visualBeat": "A comparative bar/line chart with monospace labels, highlighting upward trends in accent color."
+    },
+    {
+      "name": "Gig Ledger",
+      "purpose": "List all gigs with one-click detail on payouts, expenses, and travel, reinforcing the dashboard's utility.",
+      "visualBeat": "A clean table with rows that expand to show a mini map and a true-rate tag for each gig."
+    },
+    {
+      "name": "Local-First Privacy",
+      "purpose": "Reassure users that their data stays in their browser, reinforcing trust and simplicity.",
+      "visualBeat": "A minimal split-screen: left side shows a browser mockup with a lock icon, right side lists 'No server. No cloud. Your data stays yours.'"
+    }
+  ],
+  "heroComposition": "First viewport: bold DM Sans headline 'Know what each gig is really worth.' with a clear CTA 'Get the true rate' on the left, and on the right a giant animated circular gauge (Sill's logo) displaying a live true hourly rate in monospace numerals.",
+  "logoMarkDescription": "A quarter-segment circle (pie slice) with a horizontal tick mark at its center, representing the gauge icon that measures true hourly rate — simple, precise, with rounded terminals.",
+  "visualCraft": "wallet",
+  "palette": {
+    "bg": "#0f1115",
+    "fg": "#f5f7fa",
+    "accent": "#8ab4f8",
+    "muted": "#4a5568"
+  },
+  "fonts": {
+    "display": "DM Sans",
+    "body": "DM Sans"
+  }
+}

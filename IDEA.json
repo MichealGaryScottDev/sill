@@ -1,0 +1,36 @@
+{
+  "slug": "sill",
+  "title": "Sill",
+  "tagline": "Know what each gig is really worth.",
+  "description": "Sill is a real-time earnings dashboard for working musicians. It syncs your gig calendar, tracks commute times and payouts, and computes your true hourly rate after travel and expenses. With a Mapbox-powered commute visualizer, Sill shows you which gigs are worth taking and which aren't.",
+  "niche": "Working musicians, DJs, and performers who juggle multiple gigs and need to optimize their time and earnings.",
+  "pages": [
+    "/",
+    "/dashboard"
+  ],
+  "visualCraft": "wallet",
+  "visualDirection": "Dark, data-dense workbench with a wallet-grade focus on numbers. Clean grid layout, monospace numerals for stats, and a hero with a huge circular gauge icon that animates to show true hourly rate.",
+  "colorPalette": {
+    "bg": "#0f1115",
+    "fg": "#f5f7fa",
+    "accent": "#8ab4f8",
+    "muted": "#4a5568"
+  },
+  "fontPairing": {
+    "display": "DM Sans",
+    "body": "DM Sans"
+  },
+  "features": [
+    "Import gigs from calendar and see payouts, commute time, and expenses in one view",
+    "Automatic true hourly rate calculation: (payout - expenses) / (gig time + commute)",
+    "Mapbox-powered commute visualizer to overlay travel time on a map",
+    "Performance trend chart comparing gig earnings over weeks and months",
+    "Local-first storage: your data stays in your browser, no server required",
+    "Quick-add gig modal for manual entry when calendar sync isn't available"
+  ],
+  "scopeNotes": "No authentication, no backend database, no payment integration. Calendar import is simulated with sample data or manual entry. Mapbox is used for showing a static map with commute overlay, not for live navigation.",
+  "usesAi": false,
+  "libraries": [
+    "mapbox"
+  ]
+}

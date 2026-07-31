@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 16% 7%;
+    --foreground: 220 13% 97%;
+    --card: 220 16% 9%;
+    --card-foreground: 220 13% 97%;
+    --primary: 216 83% 75%;
+    --primary-foreground: 220 16% 7%;
+    --secondary: 220 16% 12%;
+    --secondary-foreground: 220 13% 97%;
+    --muted: 220 16% 12%;
+    --muted-foreground: 216 12% 60%;
+    --accent: 220 16% 12%;
+    --accent-foreground: 220 13% 97%;
+    --destructive: 0 45% 63%;
+    --border: 220 16% 15%;
+    --input: 220 16% 15%;
+    --ring: 216 83% 75%;
+    --radius: 1.25rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "tnum" on;
+    background:
+      radial-gradient(ellipse 80% 50% at 50% -10%, hsl(216 83% 75% / 0.08), transparent 55%),
+      #0f1115;
+  }
+
+  /* Custom scrollbar for wallet density */
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--border));
+    border-radius: 8px;
+  }
+}
